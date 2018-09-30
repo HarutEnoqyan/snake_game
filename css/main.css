@@ -1,0 +1,115 @@
+div#main-field div {
+    box-sizing: border-box;
+}
+
+div#alert-area {
+    width: 350px;
+    margin: auto;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid;
+    display: none;
+}
+
+.alert-danger{
+    color: red;
+    border-color: #ff6969;
+    background-color: rgba(212, 42, 42, 0.24);
+}
+
+.alert-success {
+    color: #10730f;
+    border-color: #19a740;
+    background-color: rgba(2, 187, 57, 0.24);
+}
+
+div#main-field {
+    position: relative;
+    margin: auto;
+    border-radius: 6px;
+}
+
+div.snake_length{
+    position: absolute;
+    top: 0;
+    right: -40px;
+    border: 1px solid darkgreen;
+    border-radius: 3px;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.head {
+    background-color: #880505;
+}
+
+.black {
+    background-color: #443c3c;
+}
+
+.red {
+    background-color: #fb7539;
+}
+
+div.row:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+div.cell {
+    height: 25px;
+    width: 25px;
+    float: left;
+    border-radius: 50%;
+}
+
+div.properties {
+    width: 30%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.buttons {
+    width: 20%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+
+input#fields_count {
+    padding: 4px;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #CCD;
+}
+
+select#speed {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#start {
+    margin-right: 5px;
+    background-color: #2ac32a;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+#pause {
+    margin-right: 5px;
+    background-color: #4380ea;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 3px;
+}
